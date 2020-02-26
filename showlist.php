@@ -26,11 +26,11 @@
 <br/>
 <div class="w3-container w3-center">
 	<form action="index.php?page=list" method="POST">
-	Search:<input type="text" name="search" placeholder="Search Product Name">
+	<input type="text" name="search" placeholder="Search Product Name">
 		<input type="submit" name="submit" value="Search">
 	</form>
   <table class="w3-table-all">
-    <tr class="w3-deep-orange w3-text-white">
+    <tr class="w3-deep-orange w3-text-white" style="height: 50px;">
       <th>Product Name</th>
       <th>Price</th>
       <th>Description</th>
