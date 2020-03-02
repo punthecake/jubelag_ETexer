@@ -13,12 +13,16 @@
 <br/>
 <br/>
 <br/>
-<div class="w3-container">
+<div class="contain">
+<div class="wrapper">
 <form action="pro_update.php?id=<?php echo $id ?>" method="POST">
-	Name:<br/><input class="w3-input w3-animate-input" type="text" name="name" value="<?php echo $result['name'];?>" style="width:30%; text-align: center;"/><br/><br/>
-	Description:<br/><textarea class="w3-input w3-animate-input" name="description" style="width:45%; text-align: center;"><?php echo $result['description']; ?></textarea><br/><br/>
-	Price:<br/><input class="w3-input w3-border w3-round-large" type="number" name="price" value="<?php echo $result['price']; ?>" style="width:15%; text-align: center;"/><br/><br/>
-	Category:<select class="w3-select w3-border" name="category" style="width:15%;">
+	<br/>
+	<h1><center>Edit Product<center></h1>
+	<br/>
+	Name:<br/><input class="w3-input w3-animate-input" type="text" name="name" value="<?php echo $result['name'];?>" style="width:50%; text-align: center;"/><br/><br/>
+	Description:<br/><textarea class="w3-input w3-animate-input" name="description" style="width:50%; text-align: center;"><?php echo $result['description']; ?></textarea><br/><br/>
+	Price:<br/><input class="w3-input w3-border w3-round-large" type="number" name="price" value="<?php echo $result['price']; ?>" style="width:30%; text-align: center;"/><br/><br/>
+	Category:<br/><select class="w3-select w3-border" name="category" style="width:30%;">
 		<option value="<?php echo $result['category_id'];?>"><?php echo $result['category_name'];?></option>
 	<?php
       foreach($category as $cview){
@@ -31,4 +35,5 @@
 	<br/><br/><input class="w3-button w3-round-large w3-red" type="submit" name="submit" value="Done"/>
 </form>
 </div>
+<div>
 </html>

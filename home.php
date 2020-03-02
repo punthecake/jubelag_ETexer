@@ -1,29 +1,28 @@
 <html>
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 <br/>
 <br/>
 <br/>
 <br/>
-<div class="w3-display-container">
-<div class="w3-container w3-center">
-  <div class="w3-card-4" style="width:50%; margin: 0 auto; border-radius: 5px;">
-    <header class="w3-container w3-deep-orange">
+<div class="wrap">
+<div class=" w3-center">
+  <div class="w3-card-4">
+    <header class="header">
       <h1>Functions:</h1>
     </header>
 
-    <div class="w3-container">
+    <div class="body w3-center">
       <ul>
-        <li>Read all products</li>
-        <li>Read one product information</li>
-        <li>Create product</li>
-        <li>Display Categories</li>
-        <li>Update Product</li>
-        <li>Delete Record</li>
+        <li>Read all products</li><br/>
+        <li>Read one product information</li><br/>
+        <li>Create product</li><br/>
+        <li>Display Categories</li><br/>
+        <li>Update Product</li><br/>
+        <li>Delete Record</li><br/>
       </ul>
     </div>
 
-    <footer class="w3-container w3-deep-orange">
+    <footer class="footer">
       <h5>Jubelag 2020</h5>
     </footer>
   </div>

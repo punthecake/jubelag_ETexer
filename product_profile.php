@@ -10,19 +10,19 @@
 <br/>
 <br/>
 <br/>
-<div class="w3-container w3-center" style="width: 45%; margin: 0 auto;">
-	<div class="w3-card-4">
-		<header class="w3-container w3-deep-orange">
+<div class="wrapper w3-center">
+	<div class="">
+		<header class="header">
 			<h1><b><?php echo $result['name']; ?></b></h1>
 		</header>
-	<div class="w3-container w3-padding-large">
+	<div class="body">
 		<p> <b>Price:  </b><?php echo $result['price']; ?></p>
 		<p>	<b>Description:  </b><?php echo $result['description']; ?> </p>
 		<p>	<b>Category:  </b><?php echo $result['category_name'];?> </p>
 	</div>
-		<footer class="w3-container w3-deep-orange w3-padding-small">
-			<a class="w3-button w3-round-large w3-teal w3-margin" href="index.php?page=update&id=<?php echo $id ?>">Edit</a>
-			<a class="w3-button w3-round-large w3-yellow w3-margin" href="pro_delete.php?id=<?php echo $id ?>">Delete</a>
+		<footer class="header">
+			<a class="w3-button w3-round-large w3-teal w3-margin" href="index.php?page=update&id=<?php echo $id ?>">Update/Edit</a>
+			<a class="w3-button w3-round-large w3-yellow w3-margin" href="pro_delete.php?id=<?php echo $id ?>">Delete/Trash</a>
 		</footer>
 	</div>
   </div>
