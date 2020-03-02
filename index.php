@@ -4,7 +4,7 @@ $load = (isset($_GET['page'])&& $_GET['page'] !='')? $_GET['page'] : '';
 
 <html>
 	<head>
-		<title>Api Utilization</title>
+		<title>API Exercise</title>
 	</head>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
